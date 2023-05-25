@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #111b21;
+}
+
+.container {
+    width: 695px;
+    background: #e8f1f1;
+    border-radius: 7px;
+    padding: 30px;
+    /* display: inline;*/
+    position: relative;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.wrapper {
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.text-input textarea {
+    height: 255px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.container .row.from .icons {
+    border-right: 1 px solid rgb(0, 0, 0);
+    padding-right: 15px;
+}
+
+.container .row.to .icons {
+    border-left: 1 px solid #000000;
+    padding-left: 15px;
+}
+
+.controls .icons {
+    width: 38%;
+}
+
+.controls .icons i {
+    width: 50px;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .row select {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+
+.controls .exchange {
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button {
+    /* display: inline-block; */
+    background-color: #259289;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 60px;
+    /* margin-left: 260px; */
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .3s;
+    font-size: 15px;
+    position: relative;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+}
+
+.container button:hover {}
+
+
+/* .credit-footer {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+ */
+
+
+/* .icons:hover {
+    background-color: #4d6be0;
+} */
